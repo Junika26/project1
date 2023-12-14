@@ -1,0 +1,351 @@
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.top-navbar p{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.top-navbar .icon{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.top-navbar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.top-navbar a img{
+    margin-bottom: 3px; 
+}
+.top-navbar a:hover{
+    color: black;
+}
+@media screen and (max-width:400px){
+    .top-navbar a{
+       font-size: 13px;
+    }
+    .top-navbar a{
+        width: 15px;
+    }
+    .top-navbar a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:320px){
+    .top-navbar a{
+       font-size: 10px;
+    }
+    .top-navbar a{
+        width: 13px;
+    }
+    .top-navbar a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:318px){
+    .top-navbar a{
+       font-size: 8px;
+       margin-left: 0px;
+    }
+    .top-navbar a img{
+        width: 10px;
+        margin-left: 0px;
+    }
+    .top-navbar p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}
+#logo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#logo span{
+    color: lightpink;
+}
+#logo .span1{
+    font-size: 30px;
+}
+#promo{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+#promo span{
+    color:  plum;
+}
+#promo #span1{
+    font-size: 30px;
+}
+#offer{
+    margin-top: 100px;
+}
+#offer i{
+    font-size: 32px;
+    color: black;
+}
+#newslater{
+    margin-top: 100px;
+}
+#newslater h3{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.input{
+    margin-top: 30px;
+}
+.input input{
+    width: 350px;
+    height: 36px;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 5px;
+}
+#ikuti{
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 36px;
+    font-weight:bold ;
+    background-color: rgb(255, 172, 200);
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 1px black;
+}
+@media screen and (max-width:465px) {
+    .input{
+        width: 280px;
+    }
+    #ikuti{margin-top: 10px;
+    }
+}
+@media screen and (max-width:250px) {
+    .input{
+        width: 150px;
+    }
+    #ikuti{
+        width: 150px;
+    }
+}
+#footer{
+    padding: 0 0 30px 0px;
+    color: white;
+    font-size: 14px;
+    background-color: palevioletred;
+    margin-top: 100px;
+}
+#footer .footer-top{
+    padding: 60px 0 30px 0;
+    background-color: palevioletred;
+    color: white;
+}
+#footer .footer-top .footer-contact{
+   margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact h3{
+    color: plum;
+}
+ #footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: white;
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#footer .footer-top .footer-links h4{
+    color: plum;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#footer .footer-top .footer-links ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    transition: 0.5s ease;
+}
+#footer .footer-top .footer-links ul li a:hover{
+   color: palegoldenrod;
+}
+#footer .footer-top .socail-links a{
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    transition: 0.5s ease;
+}
+#footer .footer-top .socail-links a:hover{
+    background-color: lightpink;
+    color: white;
+}
+#footer .copyright{
+    text-align: center;
+
+}
+#footer .credits{
+    text-align: center;  
+    font-size: 13px;
+}
+#footer .credits a{
+   color: black;
+   text-decoration: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: tomato;
+    border-radius: 100px;
+    color: white;
+}
+
+#login{
+    width: 65%;
+    height: 70vh;
+    background-color: tomato;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px ;
+}
+#side1 h3{
+    margin-top: 200px;
+    color: #ffc800;
+    font-weight: bold;
+}
+#side2{
+    background-color: white;
+    height: 70vh;
+    border-radius: 10px;
+}
+#side2 h3{
+    margin-top: 30px;
+    color: #ffc800;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+}
+.input input{
+    margin-top: 15px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #ffc800;
+}
+.input2 input ::placeholder{
+    font-weight: bold;
+}
+#btnlogin{
+    padding-top: 10px;
+}
+#btnlogin a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-shadow: 0px 1px 1px black;
+}
+#side2 p{
+    margin-top: 10px;
+}
+@media screen and (max-width:991px){
+    .input input{
+        width: 250px;
+    }
+}
+@media screen and (max-width:765px){
+    .input input{
+        width: 260px;
+    }
+    #side2{
+        height: 60vh;
+    }
+}
+#contact{
+    margin-top: 50px;
+}
+#contact .card{
+    margin-top: 20px;
+    height: 80px;
+    text-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #ffc800;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+}
+.massagebtn button{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    border: 2px solid #ffc800;
+    border-radius: 30px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+.massagebtn button:hover{
+    background-color: #ffc800;
+    color: white;
+}
